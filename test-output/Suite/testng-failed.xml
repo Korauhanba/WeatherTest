@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Invalid City Search Test(failed)">
+    <classes>
+      <class name="testcases.InvalidCitySearchTest">
+        <methods>
+          <include name="invalidCity"/>
+        </methods>
+      </class> <!-- testcases.InvalidCitySearchTest -->
+    </classes>
+  </test> <!-- Invalid City Search Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
